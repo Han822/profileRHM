@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Protofillo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+       <div class="navDiv">
+        <label for="menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+       </div>
+        <input type="checkbox" id="menu">
+        <ul class="nav">
+            
+            <label for="menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <br><br><br><br>
+    <div class="container">
+        <form action="#" method="post">
+            <h1>Contact Form</h1>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" cols="30" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send" onclick="validateForm()">
+        </form>
+
+       <div id="contact">
+        <h2 class="title">Social Links</h2>
+        <ul class="contact">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+       </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 RHM. All rights reserved. | <a href="index.html">RHM</a> | <a href="projects.html">My Projects</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+.listProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
